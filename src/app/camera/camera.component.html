@@ -1,0 +1,7 @@
+
+<webcam *ngIf="showCamera" width="350"></webcam>
+
+<button (click)="openCamera()" *ngIf="!showCamera">Open Camera</button>
+
+<button (click)="openCamera()" *ngIf="showCamera">Close Camera</button>
+
